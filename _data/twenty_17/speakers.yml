@@ -1,26 +1,36 @@
-- title: Name
-  name: Name-1
-  subtitle: Position
+- title: Cecilia Foxworthy 
+  name: Cecilia Foxworthy 
+  subtitle: EEUU
   img: TBD.jpg
-  thumbnail: TBD.jpg
+  thumbnail: https://i.ibb.co/Chb0CRJ/Nicole.jpg
+  alt: https://i.ibb.co/Chb0CRJ/Nicole.jpg
+  topic: Topic
+  description: More Info
+
+- title: David Barnett 
+  name: David Barnett 
+  subtitle: Bolivia
+  img: https://i.ibb.co/bsRVNsY/David.jpg
+  thumbnail: https://i.ibb.co/bsRVNsY/David.jpg
+  alt: https://i.ibb.co/bsRVNsY/David.jpg
+  topic: Topic
+  description: More Info
+
+- title: Nicole Flores
+  name: Nicole Flores
+  subtitle: Bolivia
+  img: https://i.ibb.co/Chb0CRJ/Nicole.jpg
+  thumbnail: https://i.ibb.co/Chb0CRJ/Nicole.jpg
   alt: Picture of TBD
   topic: Topic
   description: More Info
 
-- title: Name
-  name: Name-2
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
 
-- title: Name
-  name: Name-3
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
+- title: Gui Laurent Verrier
+  name: Gui Laurent Verrier
+  subtitle: Bolivia
+  img: https://i.ibb.co/Chb0CRJ/Nicole.jpg
+  thumbnail: https://i.ibb.co/Chb0CRJ/Nicole.jpg
   alt: Picture of TBD
   topic: Topic
   description: More Info

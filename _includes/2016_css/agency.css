@@ -114,7 +114,7 @@ aside.clients,
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #fff;
+    color: #000a12;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -124,7 +124,7 @@ aside.clients,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
+    color: #000a12;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -155,10 +155,11 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary .badge {
     color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
+    background-color: #000a12;
 }
 
 .btn-xl {
+    margin-top: 10px;
     padding: 20px 40px;
     font-size: 18px;
     font-weight: 700;
@@ -171,7 +172,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-sm, .btn-xl {
-    color: #fff;
+    color: #000a12;
     background-color: #{{ site.data.template.color.primary }};
     border-color: #{{ site.data.template.color.primary }};
     border-radius: 3px;
@@ -189,7 +190,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
+    color: #000a12;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -238,7 +239,7 @@ fieldset[disabled] .btn-xl.active {
 .btn-sm .badge,
 .btn-xl .badge {
     color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
+    background-color: #000a12;
 }
 
 .navbar-default {
@@ -268,7 +269,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #000a12;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -286,20 +287,20 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    /* outline: 0; */
+    /* color: #{{ site.data.template.color.secondary }}; */
 }
 
 .navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    /* border-radius: 0; */
+    /* color: #fff; */
+    /* background-color: #{{ site.data.template.color.primary }}; */
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    /* color: #fff; */
+    /* background-color: #{{ site.data.template.color.secondary }}; */
 }
 
 @media(min-width:768px) {
@@ -339,7 +340,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/css/2016_style/img/header-bg.jpg');
+    background-image: url('https://i.ibb.co/r7pyzdF/josh-rose-tr-Yl7-JYATH0-unsplash.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -349,16 +350,15 @@ header {
 }
 
 header .intro-text {
-    padding-top: 25vh;
+    padding-top: 250px !important;
     padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 28px !important;
+    line-height: 10px;
 }
 
 header .intro-text .intro-heading {
@@ -427,6 +427,7 @@ section h3.section-subheading {
 
 #speakers .speakers-item {
     right: 0;
+    cursor: default !important;
     margin: 0 0 15px;
 }
 
@@ -437,7 +438,7 @@ section h3.section-subheading {
     max-width: 400px;
 }
 
-#speakers .speakers-item .speakers-link .speakers-hover {
+/* #speakers .speakers-item .speakers-link .speakers-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -461,7 +462,7 @@ section h3.section-subheading {
     text-align: center;
     font-size: 120%;
     color: #fff;
-}
+} */
 
 #speakers .speakers-item .speakers-link .speakers-hover .speakers-hover-content i {
     margin-top: -12px;
